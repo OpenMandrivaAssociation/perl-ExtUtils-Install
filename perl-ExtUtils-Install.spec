@@ -1,7 +1,7 @@
 
 %define realname   ExtUtils-Install
-%define version    1.50
-%define release    %mkrel 2
+%define version    1.52
+%define release    %mkrel 1
 
 Name:       perl-%{realname}
 Version:    %{version}
