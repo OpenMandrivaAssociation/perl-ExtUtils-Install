@@ -1,5 +1,5 @@
 %define upstream_name    ExtUtils-Install
-%define upstream_version 1.63
+%define upstream_version 1.64
 
 %if %{_use_internal_dependency_generator}
 %define __noautoreq 'perl\\(VMS::Filespec\\)'
@@ -10,6 +10,7 @@ Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	Yet another framework for writing test scripts
+
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
@@ -60,5 +61,6 @@ make test
 %doc Changes META.yml README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
 
 
