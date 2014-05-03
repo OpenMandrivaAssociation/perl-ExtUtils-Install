@@ -1,5 +1,6 @@
 removed_sources:
   ExtUtils-Install-1.54.tar.gz: a32c1168b3ac47e10110d7ad5f780c961b54216c
   ExtUtils-Install-1.63.tar.gz: ad603d9efbd442be74c9e11a9d9899eb9129bb11
-sources:
   ExtUtils-Install-1.64.tar.gz: 5e49e3f30eb059df8c8f31066beb835d4d39da46
+sources:
+  ExtUtils-Install-1.67.tar.gz: 2bac2d261fcd2497f590c4c74b25886ac60c00a3
